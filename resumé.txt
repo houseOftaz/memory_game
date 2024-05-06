@@ -1,0 +1,25 @@
+FONCTIONS DOM:
+--------------
+
+let nouvelElement = document.createElement('li')
+elementParent.appendChild(elementEnfant)
+nouvelElement.attr['valeur']= 'valeur'
+nouvelElement.innerHTML = 'coucou'
+nouvelElementDeForm.value = 'les contenu de input'
+nouvelElement.styles.backgroundColor = 'red'
+nouvelElement.classList.addClass / removeClass / toggleClass
+
+
+
+POMPT:
+------
+
+ref = prompt.png
+=> 127.0.0.1
+
+est-il possible de changer l'inscription ?
+
+=> la balise dialog : utiliser un truc special pour la
+faire apparaitre c'est la fonction show() ou showModal()
+dessus et close() pour la fermer sinon faire une
+custom modal

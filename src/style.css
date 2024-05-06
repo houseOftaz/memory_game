@@ -1,0 +1,44 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: cadetblue;
+    font-family: Broadway;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 80px;
+}
+
+p {
+    margin: 50px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card {
+    background-color: orange;
+    border: 1px dashed greenyellow;
+    border-radius: 15px;
+    width: 30%;
+    height: 250px;
+    text-align: center;
+}
+
+.card:hover {
+    background-color: darksalmon;
+    cursor: pointer;
+}
