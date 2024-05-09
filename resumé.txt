@@ -14,12 +14,16 @@ nouvelElement.classList.addClass / removeClass / toggleClass
 POMPT:
 ------
 
-ref = prompt.png
-=> 127.0.0.1
-
+ref = prompt.png => 127.0.0.1
 est-il possible de changer l'inscription ?
 
-=> la balise dialog : utiliser un truc special pour la
+Avec la balise dialog : utiliser un truc special pour la
 faire apparaitre c'est la fonction show() ou showModal()
 dessus et close() pour la fermer sinon faire une
 custom modal
+
+
+DESIGN
+------
+
+changer la taille des cartes en fonction du nombre de carte générée ?
