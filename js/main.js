@@ -1,6 +1,8 @@
 // si la partie est terminée, affiche une modale pour dire la partie est
 // terminée en x coup et clicker sur ok pour relancer la partie
 
+const isWin = false
+
 const clickCarte = (carte) => {
     console.log( carte.dataset.valeur )
 
@@ -41,10 +43,6 @@ const clickCarte = (carte) => {
             actuelCard.innerHTML = ""
             actuelCard.classList.remove('clicked-carte')
         }
-
-        // Afficher le verso de toutes les cartes .clicked-carte
-
-        //carte.classList.remove('clicked-carte')
     }
 
     if (document.querySelectorAll('.clicked-carte').length >=2) {
