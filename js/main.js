@@ -1,7 +1,16 @@
 // si la partie est terminée, affiche une modale pour dire la partie est
 // terminée en x coup et clicker sur ok pour relancer la partie
 
-const isWin = false
+
+const nbrCoups = 
+// ajout d'une fonction pour verifier si la partie est finie
+const finDePartie = () => {
+    const allCards = document.querySelectorAll('.card')
+    const visibleCards = document.querySelectorAll(".clicked-carte")
+    if (visibleCards.length === allCards.length) {
+        alert(`Congrats, you win in : {nbrCoups}`)
+    }
+}
 
 const clickCarte = (carte) => {
     console.log( carte.dataset.valeur )
